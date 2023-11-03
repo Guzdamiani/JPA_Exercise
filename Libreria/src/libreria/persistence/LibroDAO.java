@@ -18,7 +18,7 @@ public class LibroDAO extends DAO<Libro> {
     public void guardar(Libro libro) {
         super.guardar(libro);
     }
-
+ 
     public void eliminar(Long isbn) throws Exception {
         Libro libro = buscarPorIsbn(isbn);
         super.eliminar(libro);
